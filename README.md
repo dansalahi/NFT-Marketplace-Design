@@ -1,2 +1,3 @@
-# NFT-Marketplace-Design
+# NFT Marketplace Design
+
 UI for the NFT Marketplace
