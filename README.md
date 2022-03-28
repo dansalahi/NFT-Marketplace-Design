@@ -1,5 +1,5 @@
 # NFT Marketplace Design
-[See Live ](https://dansalahi.github.io/NFT-Marketplace-Design/)
+LIVE: [See Live ](https://dansalahi.github.io/NFT-Marketplace-Design/)
 
 ## Contributing
 Contributions make the open-source community a fantastic place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
@@ -13,3 +13,8 @@ Don't forget to give the project a star!
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
+## Contact
+
+Dan Salahi - [@DanialSalahi](https://twitter.com/DanialSalahi) - dan.salahii@gmail.com
+
+Project Link: [https://github.com/dansalahi/NFT-Marketplace-Design](https://github.com/dansalahi/NFT-Marketplace-Design)
