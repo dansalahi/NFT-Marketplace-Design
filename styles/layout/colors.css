@@ -1,0 +1,39 @@
+:root {
+  --white: #fcfcfc;
+  --indigo: #14141f;
+  --blue: #4e3fee;
+  --light-gray: #adadb0;
+  --indigo-2: #343444;
+  --black: #0d0d12;
+  --indigo-3: #242431;
+  --dark-gray: #606067;
+  --black-2: #030303;
+  --indigo-4: #2c2c45;
+  --indigo-5: #292933;
+  --indigo-6: #45426b;
+  --indigo-7: #2e3034;
+
+  --white-2: #fdfdfd;
+  --gray: #919191;
+  --gray-2: #9d9d9d;
+  --gray-3: #bfbfec;
+  --white-3: #d8d8dc;
+  --white-4: #f3f3f3;
+  --white-5: #f1f0f0;
+}
+
+.dark {
+  --primary-text-color: var(--white);
+  --bg-color: var(--indigo);
+  --primary-color: var(--blue);
+  --gray-color: var(--light-gray);
+  --icon-bg-color: var(--indigo-2);
+  --bg-color-2: var(--black);
+  --line-color: var(--indigo-3);
+  --primary-color-2: var(--dark-gray);
+  --bg-black: var(--black-2);
+  --nav-color-1: var(--indigo-4);
+  --header-bt-border-color: var(--indigo-5);
+  --nav-inner-li-color: var(--indigo-6);
+  --searchbar-bg-color: var(--indigo-7);
+}
