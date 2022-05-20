@@ -6,6 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Axies NFT Marketplace</title>
     <link rel="stylesheet" href="./styles/home/home.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
 
   <body class="dark">
@@ -39,7 +47,7 @@
         <nav class="nav noselect">
           <ul class="text-base font-semi-bold">
             <li>
-              <a href="#">Home</a>
+              <a href="index.html">Home</a>
             </li>
             <li>
               <a href="#">Explore <i class="fa-solid fa-angle-down"></i></a>
@@ -67,9 +75,9 @@
             <li>
               <a href="#">Pages <i class="fa-solid fa-angle-down"></i></a>
               <ul>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">FAQ</a></li>
-                <li><a href="#">Create Item</a></li>
+                <li><a href="item.html">Item</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="login.html">Login</a></li>
               </ul>
             </li>
             <li>
@@ -176,11 +184,77 @@
     </header>
 
     <main>
-      <section id="hero"></section>
+      <section id="hero" class="hero">
+        <div class="animation-elements">
+          <div class="shape item-w-16"></div>
+          <div class="shape item-w-22"></div>
+          <div class="shape item-w-32"></div>
+          <div class="shape item-w-48"></div>
+          <div class="shape style2 item-w-51"></div>
+          <div class="shape style2 item-w-51 position2"></div>
+          <div class="shape item-w-68"></div>
+        </div>
+        <div class="container pos-relative">
+          <div class="hero__main">
+            <h2 class="text-5xl">
+              Discover, and collect <br />
+              extraordinary <br />
+              <span class="monster-word">Monster</span> NFTs
+            </h2>
+            <p id="typeit" class="text-sm font-light"></p>
+            <div class="buttons-container">
+              <button class="btn btn--primary shadow-1 text-sm font-semi-bold">
+                <i class="fa-solid fa-rocket"></i>
+                <span>Explore</span>
+              </button>
+              <button class="btn btn--primary shadow-1 text-sm font-semi-bold">
+                <i class="fa-brands fa-unity"></i>
+                <span>Create</span>
+              </button>
+            </div>
+          </div>
+          <div class="hero__pic">
+            <img
+              class="hero__character pos-absolute"
+              src="images/hero/imgslider2.png"
+              alt=""
+            />
+            <img
+              class="hero__img img-rendering"
+              src="images/hero/hero-img.svg"
+              alt="hero image"
+            />
+          </div>
+          <a href="#features"><div class="icon-scroll"></div></a>
+        </div>
+      </section>
     </main>
 
     <footer></footer>
 
+    <script src="./node_modules/typeit/dist/index.umd.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        new TypeIt("#typeit", {})
+          .type("Welcome to America's Most Trusted Cryptocurrency.", {
+            delay: 400,
+          })
+          .delete(50)
+          .type(
+            "Marketplace for Monster Character Collections Non Fungible Token NFTs"
+          )
+          .move(null, { to: "START", instant: true, delay: 300 })
+          .type("The Greatest ")
+          .move(null, { to: "END", instant: true, delay: 300 })
+          .break({ delay: 500 })
+          .type(' on the <span class="place">Internet</span>', { delay: 400 })
+          .delete(".place", { delay: 800, instant: true })
+          .type('<em><strong class="font-semibold">Planet...</strong></em>', {
+            speed: 100,
+          })
+          .go();
+      });
+    </script>
     <script src="./js/app.js"></script>
     <script src="./js/header.js"></script>
   </body>
