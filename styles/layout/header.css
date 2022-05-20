@@ -208,6 +208,6 @@ a {
     rgba(0, 0, 0, 0.15) 0px 4px 16px, rgba(0, 0, 0, 0.15) 0px 8px 35px,
     rgba(0, 0, 0, 0.15) 0px 16px 64px, rgba(0, 0, 0, 0.15) 0px 32px 128px;
 }
-.sticky-nav + section {
-  padding-top: 7.5rem;
+.sticky-nav + main {
+  padding-top: 7rem;
 }
